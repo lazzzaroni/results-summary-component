@@ -43,10 +43,10 @@ export default function Home() {
           href="/results-summary-component/images/favicon-16x16.png"
         />
       </Head>
-      <section className="flex h-[809px] w-[375px] flex-col rounded-2xl bg-white font-medium md:h-[512px] md:w-[736px] md:flex-row">
+      <div className="flex h-[809px] w-[375px] flex-col rounded-2xl bg-white font-medium md:h-[512px] md:w-[736px] md:flex-row">
         <Results result={result} />
         <Summary data={data} />
-      </section>
+      </div>
       <Footer />
     </>
   );

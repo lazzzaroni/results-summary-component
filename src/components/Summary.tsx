@@ -9,12 +9,12 @@ export default function Summary({ data }: { data: IData[] }) {
         {data.map((entry) => (
           <li
             key={entry.icon}
-            className="flex h-14 items-center justify-between rounded-xl bg-slate-300/40"
+            className="flex h-14 items-center justify-between rounded-xl bg-slate-200/50"
           >
             <div className="flex items-center">
               <Image
                 src={entry.icon}
-                alt=""
+                alt={`${entry.category} Icon`}
                 width="0"
                 height="0"
                 className="h-auto w-auto p-4"
@@ -22,7 +22,7 @@ export default function Summary({ data }: { data: IData[] }) {
               <p className={entry.color}>{entry.category}</p>
             </div>
             <div className="p-4">
-              {entry.score} <span className="text-black/30">/ 100</span>
+              {entry.score}&nbsp;<span className="text-black/30"> / 100</span>
             </div>
           </li>
         ))}
