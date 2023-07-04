@@ -14,13 +14,13 @@ export const data = [
   {
     category: "Verbal",
     color: "text-green-teal",
-    icon: "./icon-verbal.svg",
+    icon: "/icon-verbal.svg",
     score: 61,
   },
   {
     category: "Visual",
     color: "text-cobalt-blue",
-    icon: "./icon-visual.svg",
+    icon: "/icon-visual.svg",
     score: 72,
   },
 ];
