@@ -20,7 +20,11 @@ export default function Home() {
           name="description"
           content="Frontend Mentor | Results summary component"
         />
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="/images/favicon.ico"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
