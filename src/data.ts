@@ -1,26 +1,28 @@
+import { env } from "./env.mjs";
+
 export const data = [
   {
     category: "Reaction",
     color: "text-light-red",
-    icon: "./icon-reaction.svg",
+    icon: `./${env.NEXT_PUBLIC_BASE_URL}/icon-reaction.svg`,
     score: 80,
   },
   {
     category: "Memory",
     color: "text-orangey-yellow",
-    icon: "./icon-memory.svg",
+    icon: `./${env.NEXT_PUBLIC_BASE_URL}/icon-memory.svg`,
     score: 92,
   },
   {
     category: "Verbal",
     color: "text-green-teal",
-    icon: "./icon-verbal.svg",
+    icon: `./${env.NEXT_PUBLIC_BASE_URL}/icon-verbal.svg`,
     score: 61,
   },
   {
     category: "Visual",
     color: "text-cobalt-blue",
-    icon: "./icon-visual.svg",
+    icon: `./${env.NEXT_PUBLIC_BASE_URL}/icon-visual.svg`,
     score: 72,
   },
 ];
