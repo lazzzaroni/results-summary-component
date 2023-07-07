@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import Results from "@/components/Results";
 import Summary from "@/components/Summary";
 import Head from "next/head";
@@ -47,7 +46,6 @@ export default function Home() {
         <Results result={result} />
         <Summary data={data} />
       </div>
-      <Footer />
     </>
   );
 }
